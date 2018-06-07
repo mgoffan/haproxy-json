@@ -1,0 +1,10 @@
+{
+	"global": {
+		"chroot": "/var/lib/haproxy1",
+		"user": "haproxy",
+		"group": "haproxy"
+	},
+	"defaults": {
+		"mode": "http"
+	}
+}
