@@ -1,0 +1,25 @@
+{
+  "name": "haproxy-json",
+  "version": "1.0.0",
+  "description": "Write HAProxy JSON configurations in a more friendly manner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgoffan/haproxy-json.git"
+  },
+  "keywords": [
+    "haproxy",
+    "json",
+    "better",
+    "configuration"
+  ],
+  "author": "Martin Goffan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgoffan/haproxy-json/issues"
+  },
+  "homepage": "https://github.com/mgoffan/haproxy-json#readme"
+}
