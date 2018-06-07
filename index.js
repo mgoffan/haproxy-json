@@ -10,7 +10,7 @@ debug('parsing program arguments');
 
 program
 	.version(require('./package.json').version)
-	.usage('-f file [-f file]*')
+	.usage('[options] -f file [-f file]*')
 	.option('-f, --file <file>', 'Input file', Array)
 	.option('-o, --output [output]', 'Output file', String, 'haproxy.cfg')
 	.option('--tab-size [tab-size]', 'Tab size. Only applies if indented with', Number, 2)
